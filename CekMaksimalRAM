@@ -1,1 +1,2 @@
-wmic MemoryChip get BankLabel, Capacity, MemoryType, TypeDetail, Speed, MaxCapacity, MemoryDevices
+wmic memphysical get MaxCapacity, MemoryDevices
+wmic MemoryChip get BankLabel, Capacity, MemoryType, TypeDetail, Speed, Tag
